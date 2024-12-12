@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--Logo-->
+      <a href="#" class="logo"><i class='bx bxs-shopping-Roupas'></i>Chromos</a>
+      <!--Menu Icon-->
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <!--Nav list-->
+      <ul class="navbar">
+      <li><a href="index.html">Início</a></li>   
+      <li><a href="index.html">Sobre Nós</a></li>   
+      <li><a href="carrinho.html">Carrinho</a></li> 
+      <li><a href="index.html">Contato</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="my-4">Política de Privacidade</h1>
+        <div class="accordion" id="accordionFaq">
+          <!-- Card 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Como faço para realizar um pedido?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body">
+                Para realizar um pedido, basta seguir os seguintes passos:
+                <ol>
+                  <li>
+                    Escolha os produtos desejados e adicione-os ao seu carrinho;
+                  </li>
+                  <li>Clique no ícone que o encaminha-rá ao nosso Whatssap;</li>
+                  <li>Mande uma foto de seu carrinho que um atendente te dará os próximos passos;</li>
+                  <li>Siga os passos e espere sua encomenda chegar</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Qual é o prazo de entrega dos pedidos?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body">
+                O prazo de entrega pode variar de acordo com sua localização e a
+                disponibilidade do produto.
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Posso cancelar ou alterar um pedido já realizado?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body">
+              Só é possível cancelar, antes de levar o pedido ao correio.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <a href="https://wa.me/554499364993" class="whatsapp-icon" target="_blank">
+      <img src="img/whatsapp-logo.png" alt="WhatsApp"></a>
+
+    <div class="copyright">
+      <p>&#169;2024 Chromos Streetwear. Todos os direitos reservados.</p>
+      <p>Desenvolvido por Rafael Teixeira</p>
+        <section class="footer" id="contact">
+        <div class="footer-box">
+          <h3>Suporte</h3>
+          <li><a href="produto.html">Produto</a></li>
+          <li><a href="duvida-frequenteshtml.html">Ajuda</a></li>
+          <li><a href="politica-de-privacidade.html">Politica de privacidade</a></li>
+          <li><a href="duvida-frequenteshtml.html">Termos de uso</a></li>
+        </div>
+        
+        <div class="footer-box contact">
+         <h3>Contato</h3>
+         <span><i class='bx bxs-map'></i>Tapejara, PR</span>
+         <span><i class='bx bxs-phone'></i>+55 (44)99364993</span>
+         <span><i class='bx bxs-envelope'></i>chromosstreetwear@gmail.com</span>
+      
+      </div>
+          </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="scripts/components.js"></script>
+  </body>
+</html>
